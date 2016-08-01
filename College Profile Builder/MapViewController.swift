@@ -1,4 +1,5 @@
 //
+//
 //  MapViewController.swift
 //  College Profile Builder
 //
@@ -11,7 +12,7 @@ import MapKit
 
 class MapViewController: UIViewController, UITextFieldDelegate {
     
-
+    
     @IBOutlet var mapView: MKMapView!
     @IBOutlet var textField: UITextField!
     
@@ -23,14 +24,6 @@ class MapViewController: UIViewController, UITextFieldDelegate {
         textField.delegate = self
         
         chooseLocation(location)
-        
-//        if let placemark = chooseLocation(location) {
-//            let span = MKCoordinateSpanMake(0.1, 0.1)
-//            
-//            let coordinate = placemark.location.coordinate
-//            
-//            displayMap(coordinate, span: span, pinTitle: location)
-//        }
         
     }
     
@@ -83,21 +76,22 @@ class MapViewController: UIViewController, UITextFieldDelegate {
                 
             }
             self.presentViewController(actionSheet, animated: true, completion: nil)
-
+            
         }
         
         
     }
     
     func displayMap(center : CLLocationCoordinate2D,
-        span: MKCoordinateSpan,
-        pinTitle: String) {
-            
-            let region = MKCoordinateRegionMake(center, span)
-            mapView.region = region
-            let pin = MKPointAnnotation()
-            pin.coordinate = center
-            pin.title = pinTitle
-            mapView.addAnnotation(pin)
+                    span: MKCoordinateSpan,
+                    pinTitle: String) {
+        
+        let region = MKCoordinateRegionMake(center, span)
+        mapView.region = region
+        let pin = MKPointAnnotation()
+        pin.coordinate = center
+        pin.title = pinTitle
+        mapView.addAnnotation(pin)
     }
 }
+

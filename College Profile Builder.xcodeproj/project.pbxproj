@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D10906701B4D89D800F40E5E /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D109066F1B4D89D800F40E5E /* MapViewController.swift */; };
+		91C917CD1D4FC5F200D4CE89 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C917CC1D4FC5F200D4CE89 /* MapViewController.swift */; };
 		D1F036A91B4B6651002E35EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F036A81B4B6651002E35EB /* AppDelegate.swift */; };
 		D1F036AB1B4B6651002E35EB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F036AA1B4B6651002E35EB /* ViewController.swift */; };
 		D1F036AE1B4B6651002E35EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1F036AC1B4B6651002E35EB /* Main.storyboard */; };
@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		D109066F1B4D89D800F40E5E /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		91C917CC1D4FC5F200D4CE89 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		D1F036A51B4B6651002E35EB /* College Profile Builder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "College Profile Builder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1F036A81B4B6651002E35EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D1F036AA1B4B6651002E35EB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -111,7 +111,7 @@
 				D1F036B41B4B6651002E35EB /* Info.plist */,
 				D1F036D61B4B6C6C002E35EB /* College.swift */,
 				D1F036D81B4B6ED5002E35EB /* DetailViewController.swift */,
-				D109066F1B4D89D800F40E5E /* MapViewController.swift */,
+				91C917CC1D4FC5F200D4CE89 /* MapViewController.swift */,
 			);
 			path = "College Profile Builder";
 			sourceTree = "<group>";
@@ -267,7 +267,7 @@
 				D1F036AB1B4B6651002E35EB /* ViewController.swift in Sources */,
 				D1F036A91B4B6651002E35EB /* AppDelegate.swift in Sources */,
 				D1F036D71B4B6C6C002E35EB /* College.swift in Sources */,
-				D10906701B4D89D800F40E5E /* MapViewController.swift in Sources */,
+				91C917CD1D4FC5F200D4CE89 /* MapViewController.swift in Sources */,
 				D1F036D91B4B6ED5002E35EB /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
